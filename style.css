@@ -37,9 +37,11 @@ body {
 }
 
 #main_content {
+  width: 100%;
   margin-top: 10%;
   text-align: center;
   vertical-align: top;
+  
 }
 
 #minha_foto {
@@ -66,11 +68,11 @@ body {
 #licoes_a_aprender {
   display: inline-block;
   text-align: justify;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 #box-artigos {
-  width: 50%;
+  width: 60%;
   text-align: center;
   margin: auto;
 }
@@ -96,13 +98,15 @@ body {
 }
 
 #tabela {
-  margin: auto;
+  margin: 30px auto;
   padding: 1.5em;
+  width: 30%;
 }
 
 caption {
-  font-weight: bold ;
+  font-weight: bold;
 }
+
 table {
   border-collapse: collapse;
 }
@@ -120,14 +124,9 @@ thead tr {
   border-right: 2px solid #444;
 }
 
-tbody tr {
-  border-bottom: 2px solid #444;;
-}
-
 #rodape {
   background-color: #282a36;
-  position: relative;
-  width: 100%;
+  margin-left: 0;
 }
 
 #texto-rodape {
@@ -136,4 +135,9 @@ tbody tr {
   font-family: monospace, sans-serif;
   font-size: 12px;
   padding: 1.5em;
+}
+
+.trybe {
+  text-decoration: none;
+  color: #2FC18C;
 }
