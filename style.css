@@ -1,10 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
+  line-height: 1.2em;
 }
 
 #cabecalho {
   background-color: #282A36;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   position: fixed;
   padding: 1.5em;
@@ -12,5 +15,83 @@ body {
 
 #titulo {
   color: rgb(253, 251, 251);
+  display: inline-block;
+  width: 30%;
   text-align: center;
+  margin: auto;
+}
+
+#nav-bar {
+  width: 33%;
+  display: inline-block;
+}
+
+.links  {
+  color: white;
+}
+
+#main_content {
+  margin-top: 8%;
+  text-align: center;
+  vertical-align: top;
+}
+
+#redes_sociais {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  width: 35px;
+  padding: 20px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  text-align: justify;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  text-align: justify;
+  padding-left: 100px;
+}
+
+#box-artigos {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  padding-left: 60px;
+}
+
+#rodape {
+  background-color: #282A36;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#texto-rodape {
+    color: white;
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 12px;
 }
