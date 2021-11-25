@@ -8,11 +8,14 @@
   <body>
     <header id="cabecalho">
       <nav id="nav-bar">
-        <a class="links" href="">Lições</a>
-        <a class="links" href="">Artigos</a>
-        <a class="links" href="">Tabela</a>
+        <a class="links" href="#box-listas">Lições</a>
+        <a class="links" href="#box-artigos">Artigos</a>
+        <a class="links" href="#tabela">Tabela</a>
       </nav>
+      <section id="titulos">
       <h1 id="titulo">Lessons Learned - Trybe!</h1>
+      <p id="meu-nome">Fábio Nicolau</p>
+    </section>
     </header>
 
     <main id="main_content">
@@ -74,10 +77,14 @@
         <p>
           Acabando o bloco de introdução ao HTML e CSS na Trybe, a gente foi
           capaz de fazer um
-          <a href="https://fabionicolau.github.io">portfólio</a>, bem como esse
-          projeto, utilizando um pouco do que essas ferramentas tem a oferecer.
-          Ainda é um começo mas cada vez eu tenho mais certeza da escolha que
-          fiz e da profissão que quero seguir.
+          <a
+            id="portfolio"
+            href="https://fabionicolau.github.io"
+            target="_blank"
+            >portfólio</a
+          >, bem como esse projeto, utilizando um pouco do que essas ferramentas
+          tem a oferecer. Ainda é um começo mas cada vez eu tenho mais certeza
+          da escolha que fiz e da profissão que quero seguir.
         </p>
       </article>
       <aside class="lado-direito">
@@ -89,8 +96,32 @@
       </aside>
     </section>
 
+    <table id="tabela">
+      <caption>
+        Módulo 1
+      </caption>
+      <thead>
+        <tr>
+          <th>Bloco 1</th>
+          <th>Bloco 2</th>
+          <th>Bloco 3</th>
+          <th>Bloco 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-borda">Unix e Bash</td>
+          <td class="td-borda">Git, Github e Internet</td>
+          <td class="td-borda">Introdução à HTML e CSS</td>
+          <td>Introdução à JavaScript e Lógica de Programação</td>
+        </tr>
+      </tbody>
+    </table>
+
     <footer id="rodape">
-      <p id="texto-rodape">Fábio Nicolau - Estudante de desenvolvimento Web na Trybe</p>
+      <p id="texto-rodape">
+        Fábio Nicolau - Estudante de Desenvolvimento Web na Trybe
+      </p>
     </footer>
   </body>
 </html>
