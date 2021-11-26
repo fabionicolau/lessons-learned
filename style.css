@@ -1,10 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   line-height: 1.2em;
+  margin: 0;
 }
 
 #cabecalho {
-  background-color: #282a36;
+  background-color: #282A36;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -126,7 +127,8 @@ thead tr {
 
 #rodape {
   background-color: #282a36;
-  margin-left: 0;
+  width: 100%;
+  margin-bottom: 0 !important;
 }
 
 #texto-rodape {
@@ -135,9 +137,11 @@ thead tr {
   font-family: monospace, sans-serif;
   font-size: 12px;
   padding: 1.5em;
+  margin-block-end: 0;
 }
 
 .trybe {
   text-decoration: none;
   color: #2FC18C;
 }
+
